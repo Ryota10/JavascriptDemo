@@ -1,7 +1,7 @@
 /**
  * @Author       : Gatsby
  * @Date         : 2021-07-17 16:26:01
- * @LastEditTime : 2021-07-18 15:39:50
+ * @LastEditTime : 2021-07-18 16:29:59
  * @LastEditors  : Gatsby
  * @Description  : 使用对象字面量解决代码中出现的大量 if-else 语句
  * @FilePath     : \JavaScriptDemo\(无效合并、可选链接)使用对象字面量替换大量的If-else.js
@@ -16,7 +16,7 @@
      rhyme
     }
  * @return {
-     rhymes[rhyme.toLowerCase()],
+     rhymes[val.toLowerCase()],
      actions[val]
     }
  *
