@@ -1,10 +1,10 @@
 /**
  * @Author       : Gatsby
  * @Date         : 2021-07-17 16:26:01
- * @LastEditTime : 2021-07-17 17:02:43
+ * @LastEditTime : 2021-07-18 15:39:50
  * @LastEditors  : Gatsby
  * @Description  : 使用对象字面量解决代码中出现的大量 if-else 语句
- * @FilePath     : \JavaScriptDemo\使用对象字面量替换大量的If-else.js
+ * @FilePath     : \JavaScriptDemo\(无效合并、可选链接)使用对象字面量替换大量的If-else.js
  */
 /*******
  * @description: function 1： 我们有一个对象， 其中键是条件， 值是响应。 然后我们可以使用方括号符号从传入的键中选择对象的正确值。
@@ -12,7 +12,9 @@
                  则返回默认字符串“ Rhyme not found”。 这很重要， 因为我们可能合法地希望从我们的条件中返回 false 或 0。
                  function 2： 可以将函数作为值传递给对象键并执行响应.
                  选择我们想要做的计算并执行响应， 传递两个数字。 你可以使用可选链接（ 最后一行代码中的 ? .）来仅执行已定义的响应。 否则， 将使用默认的返回字符串。
- * @param {rhyme}
+ * @param {
+     rhyme
+    }
  * @return {
      rhymes[rhyme.toLowerCase()],
      actions[val]
