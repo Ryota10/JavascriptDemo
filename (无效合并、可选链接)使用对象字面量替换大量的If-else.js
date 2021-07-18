@@ -55,5 +55,5 @@ function calculate(num_1, num_2, val) {
     };
     return actions[val] ?. (num_1, num_2) ?? "Calculation is not recognised";
 }
-console.log(getTranslationMap(rhyme));
-console.log(calculate(7,8,rhyme.action));
+console.log(getTranslationMap(rhyme));  //Rhyme not found
+console.log(calculate(7,8,rhyme.action)); //0.875
